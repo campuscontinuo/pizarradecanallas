@@ -356,7 +356,7 @@ background: linear-gradient(0deg, rgba(255,252,252,0) 0%, rgba(0,0,0,0.762342436
   border-radius: 15px;
   box-shadow: 0px 5px 15px gray;
   background: rgb(209,209,209);
-  background: linear-gradient(0deg, rgba(209,209,209,1) 0%, rgba(255,255,255,0) 100%);
+  background: linear-gradient(0deg, rgba(209,209,209,1) 0%, rgba(255,255,255,0) 100%)!important;
 }
 
 .foto-about{
