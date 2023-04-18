@@ -15,18 +15,17 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
     <link rel="stylesheet" href="css/styles2.1.css">
 
   </head>
 
-  <body>
+  <body class="body-galeria">
     <!--HEADER MÓVIL (DROPDOWN)-->
     <div class="dropdown">
       <button onclick="myFunction()" class="dropbtn">Menú</button>
     <div id="myDropdown" class="dropdown-content">
-      <a href="#home">PIZARRA DE CANALLAS</a>
-      <a href="#about">CONTACTO</a>
+      <a href="pdc.html">PIZARRA DE CANALLAS</a>
+      <a href="contacto.html">CONTACTO</a>
       <a href="galeria.html">GALERÍA</a>
     </div>
     <a href="index.html" class="imglogomovil"><img src="Images/logo.png" href="index.html"></a>
@@ -41,61 +40,45 @@
       <a href="galeria.html">GALERÍA</a>
     </div>
     </div>
-<!--FIN HEADER ESCRITORIO -->
-<!--FORMULARIO DE CONTACTO-->
-<div class="formulario-contacto">
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdgr9UGn9mwfEaeTxpowK0Py6gOyoiuDgqZlJ1OppC3Dn7pBA/viewform?embedded=true" width="90%" height="500px" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
-</div>
-<!--FIN FORMULARIO DE CONTACTO-->
-<!--ARTÍCULOS-->
-<h2 style="margin-left: 20px;">Sigue leyendo</h2>
-
-<div class="corrida-cajas">
-  <div class="caja">
-    <img src="Images/pegaleinicio.jpg">
-    <p><b>[VIDEO] Pégale a tu papá</b><br><br>Entrevista con el psicoanalista Carlos Almonte, sobre las figuras paternas y maternas en Santiago post-pandémico.</p>
+    <!--FIN HEADER ESCRITORIO -->
+    <div class="galeria">
+  <div class="fila-galeria">
+  <div class="elemento-galeria" style="height: 200px;">
+  <h2 class="titulo-galeria"><a href="arte.html">"La pintura está muerta"</a></h2>
+  <img src="Images/grafiti1.jpg" style="height: 100%; object-fit: cover; object-position: 100% 0;">
   </div>
-
-  <div class="caja">
-  <a href="anarquismo-expropiador.html"><img src="Images/cuicosinicio.jpg"></a>
-    <p><a href="anarquismo-expropiador.html"><b>A robar a los cuicxs, Facultad de Comunicación y Letras UDP</b></a><br><br>El anarquismo expropiador e ilegalista en las universidades santiaguinas.</p>
   </div>
-
-  <div class="caja">
-    <a href="extratextuales.html"><img src="Images/escritoinicio.jpg"></a>
-    <p><a href="extratextuales.html"><b>Relaciones extratextuales</b></a><br><br>Un pequeño escrito en el baño de la F. de Artes, una experiencia universal.</p>
+  <div class="fila-galeria">
+  <div class="elemento-galeria">
+    <h2 class="titulo-galeria"><a href="a-morales.html">"¿Sabe usted de Andrés Morales?"</a></h2>
+    <img src="Images/grafiti2.jpg" src="Images/grafiti1.jpg" style="height: 100%; object-fit: cover; object-position: 0 0;">
   </div>
-
-  <div class="caja">
-<a href="arte.html"><img src="Images/grafiti1.jpg"></a>
-<p><a href="arte.html"><b>"La pintura sigue siendo la lengua materna del arte"</b></a><br><br>Gonzalo Díaz en la Facultad de Artes de la U. de Chile, el arte contemporáneo y los formatos.</p>
+  <div class="elemento-galeria">
+   <h2 class="titulo-galeria"><a href="onu.html">"Pégale a tu papá"</a></h2>
+  <img src="Images/pegaleinicio.jpg" style="height: 100%; object-fit: cover; object-position: 50% 0;">
   </div>
-</div>
-
-<div class="boton-articulos">
-  <a href="galeria.html">Ver más...</a>
-</div>
-<!--ARTÍCULOS-->
-
-<!--ABOUT-->
-<h2 style="margin-left: 20px;">Acerca de Pizarra de canallas</h2>
-
-<div class="about">
-  <div class="foto-about">
-  <img src="Images/JMLespejo.jpg">
+  <div class="elemento-galeria">
+   <h2 class="titulo-galeria"><a href="anarquismo-udp.html">Anarquismo en Medicina UDP</a></h2>
+   <img src="Images/anarquismoinicio.jpg" style="height: 100%; object-fit: cover; object-position: 50% 0;">
   </div>
-
-  <div class="texto-about">
-    <p>Pizarra de Canallas es un proyecto realizado a modo de Memoria para optar al título de Periodista por José Miguel Leiva, licenciado en Comunicación Social de la Universidad de Chile. Este reportaje multimedial y transplataforma busca encontrar rayados al interior de campus universitarios de la Región Metropolitana con el fin de, a partir de ellos, desarrollar pequeñas cápsulas periodísticas en formato reseña, crónica y entrevista en diversos formatos. Esto, con la finalidad de observarlos, analizarlos, compararlos y valorarlos para intentar comprender la identidad de las comunidades universitarias santiaguinas de inicios de la segunda década del siglo XXI.</p>
-    <br><br>
-    <p style="color: gray;"><i>José Miguel Leiva, Licenciado en Comunicación Social, Universidad de Chile, 2022.</i></p>
+  </div>
+  <div class="fila-galeria">
+  <div class="elemento-galeria" style="height: 200px;">
+  <h2 class="titulo-galeria"><a href="onu.html">Línea de tiempo de teorías conspirativas</a></h2>
+  <img src="Images/ONUcarrusel.jpg" style="height: 100%; object-fit: cover; object-position: 50% 50%;">
+  </div>
+  </div>
+  <div class="fila-galeria">
+  <div class="elemento-galeria">
+  <h2 class="titulo-galeria"><a href="extratextuales.html">Relaciones extratextuales</a></h2>
+  <img src="Images/escritoinicio.jpg" style="height: 100%; object-fit: cover; object-position: 50% 50%;">
+  </div>
+<div class="elemento-galeria">
+  <h2 class="titulo-galeria" style="padding: 10px;"><a href="anarquismo-expropiador.html">Sobre el anarquismo expropiador e ilegalista</a></h2>
+  <img src="Images/cuicosinicio.jpg">
+  </div>
   </div>
 </div>
-
-<div class="boton-articulos">
-  <a href="contacto.html">Leer más...</a>
-</div>
-<!--FIN ABOUT-->
     <!--FOOTER-->
     <div class="footer">
     <div class="footer-container">
@@ -109,8 +92,8 @@
 
         <div class="footer-section">
           <nav class="footer-list">
-            <li><a href="#">CONTACTO</a></li>
-            <li><a href="#">PIZARRA DE CANALLAS</a></li>
+            <li><a href="contacto.html">CONTACTO</a></li>
+            <li><a href="pdc.html">PIZARRA DE CANALLAS</a></li>
             <li><a href="galeria.html">GALERÍA</a></li>
           </nav>
         </div>
