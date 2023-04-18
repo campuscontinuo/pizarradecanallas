@@ -320,6 +320,15 @@ background: linear-gradient(0deg, rgba(255,252,252,0) 0%, rgba(0,0,0,0.762342436
   color: red;
 }
 
+.texto-contenido a{
+  color: black;
+  text-decoration: none;
+}
+
+.texto-contenido a: hover{
+  text-decoration: none;
+}
+
 .imagen-contenido{
   width: 100%;
   border-top-right-radius: 15px;
@@ -340,7 +349,14 @@ background: linear-gradient(0deg, rgba(255,252,252,0) 0%, rgba(0,0,0,0.762342436
   justify-content: space-evenly;
   align-items: stretch;
   height: 350px;
-  padding: 10px 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5%;
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px gray;
+  background: rgb(209,209,209);
+  background: linear-gradient(0deg, rgba(209,209,209,1) 0%, rgba(255,255,255,0) 100%);
 }
 
 .foto-about{
@@ -370,6 +386,17 @@ background: linear-gradient(0deg, rgba(255,252,252,0) 0%, rgba(0,0,0,0.762342436
   margin-left: 10px;
   margin-right: 10px;
   text-align: justify;
+}
+
+.texto-about a:hover{
+  color: white;
+  font-size: 1.2em;
+}
+
+.texto-about a{
+  color: black;
+  text-decoration: none;
+  transition: .2s;
 }
 /*FIN ABOUT*/
 
