@@ -995,7 +995,8 @@ margin: 0;
     .about{
       display: grid;
       width: 100%;
-      margin-bottom: 400px;
+      margin-bottom: 50px;
+      height: 800px !important;
     }
 
     .boton-articulos{
