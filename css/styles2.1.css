@@ -648,7 +648,7 @@ background: linear-gradient(0deg, rgba(255,252,252,0) 0%, rgba(0,0,0,0.762342436
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: red;
+  background-color: #BD1622;
   z-index: -2;
 }
 
@@ -714,7 +714,7 @@ background: linear-gradient(0deg, rgba(255,252,252,0) 0%, rgba(0,0,0,0.762342436
   .footer-logo img{
     margin: 10px;
     margin-top: 15px;
-    width: 100%;
+    width: 60%;
   }
 
   .footer-section-wrapper {
