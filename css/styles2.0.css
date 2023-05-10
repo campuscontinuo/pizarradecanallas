@@ -25,15 +25,15 @@ h2 {
   padding: 12px;
   border: none;
   cursor: pointer;
-  background-color: red;
-  color: black;
+  background-color: #bd1823;
+  color: #212121;
   font-family: 'Fira Sans';
   margin-bottom: 7px;
 }
 
 .dropbtn:hover, .dropbtn:focus {
-  color: red;
-  background-color: black;
+  color: #bd1823;
+  background-color: #212121;
 }
 
 .dropdown {

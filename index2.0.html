@@ -23,13 +23,13 @@
   <body>
     <!--HEADER MÓVIL (DROPDOWN)-->
     <div class="dropdown">
-      <button onclick="myFunction()" class="dropbtn">Menú</button>
+      <a href="index.html"><h1 style="font-family: Akira; color: white; text-decoration: none; font-size: 2.2em; margin-bottom: 20px;">Pizarra de Canallas</h1></a>
+      <button onclick="myFunction()" class="dropbtn" style="font-family: Akira;">. . .<br>. . .<br>. . .</button>
     <div id="myDropdown" class="dropdown-content">
       <a href="pdc.html">PIZARRA DE CANALLAS</a>
       <a href="contacto.html">CONTACTO</a>
       <a href="galeria.html">GALERÍA</a>
     </div>
-    <a href="index.html" class="imglogomovil"><img src="Images/LOGO-PDC-2-MOVIL.png" style="float: right;" href="index.html"></a>
     </div>
     <!--FIN HEADER MÓVIL (DROPDOWN)-->
     <!--HEADER ESCRITORIO-->
@@ -55,15 +55,15 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
         <div class="item active">
-          <a href="a-morales.html"><img src="Images/grafiti2.jpg" alt="Los Angeles" style="width:100%;"></a>
+          <a href="a-morales.html"><img src="Images/grafiti2.jpg" alt="Los Angeles" style="height: 100%; object-fit: cover;"></a>
         </div>
 
         <div class="item">
-          <a href="arte.html"><img src="Images/grafiti1.jpg" alt="Chicago" style="width:100%;"></a>
+          <a href="arte.html"><img src="Images/grafiti1.jpg" alt="Chicago" style="height:100%; object-fit: cover;"></a>
         </div>
 
         <div class="item">
-          <a href="onu.html"><img src="Images/ONUcarrusel.jpg" alt="New york" style="width:100%;"></a>
+          <a href="onu.html"><img src="Images/ONUcarrusel.jpg" alt="New york" style="height:100%; object-fit: cover;"></a>
         </div>
       </div>
 
@@ -78,30 +78,30 @@
       </a>
     </div>
   </div>
-  <br>
-    <!--FIN CARRUSEL-->
-
+    <!--FIN CARRUSEL ESCRITORIO-->
 
     <!--ABOUT-->
-    <h2 style="width: 90%; margin-left: auto; margin-right: auto;">¿Qué es Pizarra de canallas?</h2><br>
+    <div class="about-movil">
+    <h2 style="width: 90%; margin-left: auto; margin-right: auto; color: #fff;"><br>¿Qué es Pizarra de canallas?</h2><br>
     <div class="about">
       <div class="foto-about">
       <img src="Images/JMLespejo.jpg">
       </div>
       <div class="texto-about">
+        <h3>¿Qué es Pizarra de Canallas?</h3><br>
         <p>Pizarra de Canallas es un <b>reportaje multimedia</b> y proyecto de Memoria para optar al título de Periodista por José Miguel Leiva, licenciado en Comunicación Social de la Universidad de Chile. PDC busca encontrar rayados al interior de campus universitarios de la Región Metropolitana con el fin de, a partir de ellos, desarrollar pequeñas cápsulas periodísticas en formato reseña, crónica y entrevista en diversos formatos. Esto, con la finalidad de observarlos, analizarlos, compararlos y valorarlos para intentar comprender la identidad de las comunidades universitarias santiaguinas de inicios de la segunda década del siglo XXI.</p>
         <br><br>
-        <p style="text-align: center; background-color: #dc0d0d; padding: 10px; border-radius: 5px;"><a href="pdc.html" style="color: white;"><b>Leer más...</b></a></p>
+        <p style="text-align: center; background-color: #dc0d0d; padding: 10px; width: 20%;"><a href="pdc.html" style="color: white;"><b>Leer más...</b></a></p>
       </div>
     </div>
-
+    </div>
     <!--FIN ABOUT-->
 
 <!--CONTENIDO-->
 <div class="caja-contenido">
 <div class="contenido">
 <div class="imagen-contenido">
-<img src="Images/anarquismoinicio.jpg">
+<img src="Images/AnarquismoInicioNuevo.jpg">
 </div>
 <div class="texto-contenido">
   <a href="anarquismo-udp.html"><h2>Anarquismo en Medicina UDP</h2></a><br><p>A propósito de un rayado en el baño de la Facultad de Medicina de la Universidad Diego Portales, revisamos algunos de los personajes y episodios más importantes de la historia del anarquismo chileno y santiaguino.</p>
@@ -130,8 +130,8 @@
 
 <div class="corrida-cajas">
   <div class="caja">
-    <img src="Images/pegaleinicio.jpg">
-    <p><b>[VIDEO] Pégale a tu papá</b><br><br>Entrevista con el psicoanalista Carlos Almonte, sobre las figuras paternas y maternas en Santiago post-pandémico.</p>
+  <a href="pegale-a-tu-papa.html"><img src="Images/pegaleinicio.jpg"></a>
+    <p><b><a href="pegale-a-tu-papa.html">[VIDEO] Pégale a tu papá</b></a><br><br>Entrevista con el psicoanalista Carlos Almonte, sobre las figuras paternas y maternas en Santiago post-pandémico.</p>
   </div>
 
   <div class="caja">
@@ -153,10 +153,21 @@
 <div class="boton-articulos">
   <a href="galeria.html">Ver más...</a>
 </div>
-<!--ARTÍCULOS-->
+<!--FIN ARTÍCULOS-->
+<!--CAJA ANIMADA MOVIL-->
+<div class="caja-animada-fondo">
+<div class="caja-animada">
+  <h2><a href="pegale-a-tu-papa.html" style="color: white; text-decoration: none;">[VIDEO] Pégale a tu papá, fachada USaCh - [VIDEO] Pégale a tu papá, fachada USaCh</a></h2>
+  <h2><a href="anarquismo-expropiador.html" style="color: white; text-decoration: none;">A robar a los cuicos, Facultad de Comunicación y Letras, UDP - Anarquismo expropiador</a></h2>
+  <h2><a href="extratextuales.html" style="color: white; text-decoration: none;">Relaciones extratextuales - Un pequeño escrito en el baño de Artes Visuales, UCh</a></h2>
+  <h2><a href="arte.html" style="color: white; text-decoration: none;">Gonzalo Díaz: "La pintura sigue siendo la lengua materna del arte" - La pintura está muerta</a></h2>
+  <h2><a href="ñuñoinos.html" style="color: white; text-decoration: none;">¿Quiénes son los ñuñoínos? - Conversación con Eduardo Sabrovsky - UDP = ÑUÑOA</a></h2>
+</div>
+</div>
+<!--FIN CAJA ANIMADA MOVIL-->
 
     <!--FOOTER-->
-    <div class="footer">
+    <div class="footer" style="margin-top: 0;">
     <div class="footer-container">
       <div class="footer-section-wrapper">
 
