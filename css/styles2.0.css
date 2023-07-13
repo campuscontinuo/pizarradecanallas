@@ -1,0 +1,559 @@
+html {
+  position: fixed;
+  height: 100%;
+  overflow: hidden;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  padding: 0;
+  display: block;
+}
+
+h2 {
+  font-family: 'Fira Sans';
+}
+
+/*HEADER MÓVIL (DROPDOWN)*/
+.dropbtn {
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  background-color: #bd1823;
+  color: #212121;
+  font-family: 'Fira Sans';
+  margin-bottom: 7px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  color: #bd1823;
+  background-color: #212121;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  height: 4em;
+  padding: 0px;
+  margin-top: 10px;
+}
+
+.dropdown img{
+  width: 140px;
+  margin-bottom: 0px;
+  vertical-align: middle;
+}
+
+.dropdown .imglogomovil{
+  padding-top: 7px;
+  padding-bottom: 0px;
+  padding-left: 7px;
+  height: 10em;
+  align-items: center;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: 'Fira Sans';
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+@media screen and (max-width: 600px) {
+  .header{
+    display: none;
+  }
+
+  .logo{
+    display: none;
+  }
+
+  .botones-header{
+    display: none;
+  }
+
+}
+/* FIN HEADER MÓVIL (DROPDOWN)*/
+
+/*HEADER ESCRITORIO*/
+  .header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    background: rgb(255,252,252);
+background: linear-gradient(0deg, rgba(255,252,252,0) 0%, rgba(0,0,0,0.76234243697479) 100%);
+  }
+
+  .header a{
+    text-decoration: none;
+    text-shadow: 0px 0px 10px #000000;
+    font-family: 'Fira Sans';
+    font-size: 1.5em;
+    color: white;
+    margin: 0 10px;
+    transition: 0.2s;
+  }
+
+  .header a:hover{
+    color: red;
+    text-decoration: none;
+  }
+
+  .botones-header{
+    position: absolute;
+    right: 25px;
+  }
+
+  .logo{
+    padding-top: 10px;
+    width: 25%;
+  }
+
+@media screen and (min-width: 600px){
+  .dropdown{
+    display: none;
+  }
+}
+/*FIN HEADER ESCRITORIO*/
+
+/*CARRUSEL INICIO*/
+.container{
+  position: relative;
+  top: 0;
+  cursor: pointer;
+}
+
+.container:
+
+/*FIN CARRUSEL INICIO*/
+
+/*ARTÍCULOS*/
+.corrida-cajas{
+  position: relative;
+  margin-top: 15px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  padding: 0px;
+}
+
+.caja{
+  display: grid;
+  border-radius: 10px;
+  width: 100%;
+  height: 300px;
+  margin: 0 10px;
+  transition: 0.2s;
+  box-shadow: 0px 5px 10px #747474;
+}
+
+.caja:hover{
+ transform: scale(1.1);
+}
+
+.caja img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(100%);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.caja:hover img{
+  filter: grayscale(0%);
+}
+
+.caja p{
+  color: white;
+  background-color: black;
+  margin: 0;
+  padding: 5px;
+  font-family: 'Fira Sans';
+  font-size: 1.2em;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+@media screen and (max-width: 600px){
+  .corrida-cajas{
+    display: grid;
+    width: 90%;
+  }
+
+  .caja{
+    height: 20%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 0px transparent;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .caja img{
+    filter: grayscale(0%);
+    box-shadow: 0px 0px 0px transparent;
+  }
+}
+
+.boton-articulos{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+.boton-articulos a{
+  font-family: 'Fira Sans';
+  font-size: 2em;
+  text-decoration: none;
+  color: white;
+  transition: 0.2s;
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.boton-articulos a:hover{
+  text-decoration: none;
+  color: black;
+  background-color: red;
+  transform: scale(1.2);
+}
+
+/*FIN ARTÍCULOS*/
+
+/*CONTENIDO INICIO*/
+.caja-contenido{
+  display: flex;
+  justify-content: space-between;
+  align-content: start;
+  width: 100%;
+}
+
+.caja-contenido .recomendado{
+  margin-top: 30px;
+}
+
+.contenido{
+  display: grid;
+  width: 70%;
+  font-family: 'Fira Sans';
+  margin-left: 2%;
+  margin-top: 35px;
+}
+
+.texto-contenido{
+  width: 100%;
+}
+
+.texto-contenido p{
+  margin: 0;
+  border: 0;
+  font-size: 2em;
+}
+
+.texto-contenido h2{
+  margin: 0;
+  border: 0;
+}
+
+.imagen-contenido{
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.imagen-contenido img{
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  margin-bottom: 10px;
+}
+/*CONTENIDO INICIO*/
+
+/*ABOUT*/
+.about{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  height: 350px;
+  padding: 10px 20px;
+}
+
+.foto-about{
+  background-color: #93c47d;
+  width:40%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.foto-about img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.texto-about{
+  width: 60%;
+  padding: 0;
+}
+
+.texto-about p{
+  font-family: 'Fira Sans';
+  font-size: 1.7em;
+  margin: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+}
+/*FIN ABOUT*/
+
+
+/*REPORTAJES*/
+.pagina-reportaje{
+  display: flex;
+  justify-content: space-around;
+}
+
+.reportaje h1{
+  font-family: 'Fira Sans';
+}
+
+.reportaje {
+  display: grid;
+  padding: 10px;
+  margin: 0;
+  margin-top: 7%;
+  margin-right: 5%;
+  width: 70%;
+}
+
+.imagen-reportaje{
+  width: 100%;
+  height: 300px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.imagen-reportaje img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.reportaje p{
+  font-family: 'Fira Sans';
+  font-size: 1.5em;
+  line-height: 1.5;
+  text-indent: 30px;
+}
+
+.parrafo-reportaje{
+  margin-top: 10px;
+  padding-top: 0;
+}
+
+.parrafo-reportaje img{
+  max-width: 30%;
+  float: left;
+  margin-right: 10px;
+}
+
+.parrafo-reportaje p{
+  margin-top: 0;
+}
+
+.imagen-interior{
+  width: 100%;
+  max-height: 500px;
+  margin-top: 20px;
+}
+
+.imagen-interior img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.recomendado{
+  display: grid;
+  width: 20%;
+  align-content: start;
+  padding: 7px;
+  margin-top: 13%;
+  margin-right: 3%;
+}
+
+.bloque-recomendado{
+  display: grid;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  margin-bottom: 10%;
+}
+
+.bloque-recomendado img{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.recomendado h3{
+  font-family: 'Fira Sans';
+  transition: 0.2s;
+}
+
+.recomendado h3:hover{
+  color: red;
+}
+
+.recomendado{
+  display: grid;
+  width: 20%;
+  align-contents: space-between;
+  padding: 7px;
+}
+
+.bloque-recomendado{
+  display: grid;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.bloque-recomendado img{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.recomendado h3{
+  font-family: 'Fira Sans';
+  margin-top: 3px;
+  transition: 0.2s;
+}
+
+.recomendado h3:hover{
+  color: red;
+}
+/*FIN REPORTAJES*/
+
+/*FOOTER*/
+.footer {
+  margin-top: 100px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: red;
+  z-index: -2;
+}
+
+.footer-container {
+  justify-content: center;
+}
+
+.footer-section-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-section {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  color: white;
+  text-decoration: none;
+  color: white;
+  font-family: 'Fira Sans';
+}
+
+.footer-logo {
+  display: none;
+}
+
+.footer-license{
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+.footer-license p{
+  margin: auto;
+  width: 50%;
+  padding: 0px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-license a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer-list li{
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.footer-list a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Fira Sans';
+}
+/*FIN FOOTER*/
+/*FOOTER ESCRITORIO*/
+@media screen and (min-width: 600px){
+  .footer-logo{
+    display: block;
+  }
+  .footer-logo img{
+    margin: 10px;
+    margin-top: 15px;
+    width: 100%;
+  }
+
+  .footer-section-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer-list{
+    text-align: left;
+  }
+
+}
+/*FIN FOOTER ESCRITORIO*/
