@@ -1,210 +1,121 @@
 <!DOCTYPE html>
-<html class="wide wow-animation" lang="en">
+  <html>
   <head>
     <!-- Site Title-->
     <title>Contacto</title>
-    <meta name="format-detection" content="telephone=no">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <!-- Stylesheets-->
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:300,400,700%7CRoboto:400,500,700">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap" rel="stylesheet">
+    <script src="myScript.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anaheim&family=Unbounded:wght@200;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/style.css">
-    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
-  </head>
-  <body>
-    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
-    <!-- Page Loader-->
-    <div class="preloader" id="preloader">
-      <div class="page-loader-logo">
-        <div class="brand">
-          <div class="brand__name"><img src="images/LOGO-nuevo.png" alt="" width="190" height="50"/>
-          </div>
-        </div>
-      </div>
-      <div class="page-loader-body">
-        <div id="loadingProgressG">
-          <div class="loadingProgressG" id="loadingProgressG_1"></div>
-        </div>
-      </div>
-    </div>
-    <!-- Page-->
-    <div class="page">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-      <header class="page-header section">
-        <!-- RD Navbar-->
-        <div class="rd-navbar-wrap">
-          <nav class="rd-navbar rd-navbar-creative" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-sm-device-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fullwidth" data-xl-device-layout="rd-navbar-fullwidth" data-xl-layout="rd-navbar-fullwidth" data-xxl-device-layout="rd-navbar-fullwidth" data-xxl-layout="rd-navbar-fullwidth" data-stick-up-clone="false" data-md-stick-up-offset="150px" data-lg-stick-up-offset="60px" data-md-stick-up="true" data-lg-stick-up="true">
-            <div class="rd-navbar-main-outer">
-              <div class="rd-navbar-main">
-                <!-- RD Navbar Panel-->
-                <div class="rd-navbar-panel">
-                  <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
-                  <!-- RD Navbar Brand-->
-                  <div class="rd-navbar-brand"><a class="brand" href="index.html">
-                      <div class="brand__name"><img src="images/LOGO-nuevo.png" alt="" width="190" height="50"/>
-                      </div></a></div>
-                </div>
-                <!-- RD Navbar Nav-->
-                <div class="rd-navbar-nav-wrap">
-                  <!--  <div class="rd-navbar-main-item"><a class="button button-xs button-lighter" href="contacto.html">Get a quote</a></div>-->
-                  <!-- RD Navbar Nav-->
-                  <ul class="rd-navbar-nav">
-                    <li><a href="index.html">Inicio</a>
-                    </li>
-                    <li><a href="about-us.html">About Us</a>
-                    </li>
-                    <!--  <li><a href="typography.html">Typography</a> </li>-->
-                    <li class="active"><a href="contacto.html">contacto</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+    <link rel="stylesheet" href="css/styles2.1.css">
+    <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+  </head>
+
+  <body>
+    <!--HEADER MÓVIL (DROPDOWN)-->
+    <div class="dropdown">
+      <a href="index.html"><h1 style="font-family: Akira; color: white; text-decoration: none; font-size: 2.2em; margin-bottom: 20px;">Pizarra de Canallas</h1></a>
+      <button onclick="myFunction()" class="dropbtn" style="font-family: Akira;">. . .<br>. . .<br>. . .</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="pdc.html">PIZARRA DE CANALLAS</a>
+      <a href="contacto.html">CONTACTO</a>
+      <a href="galeria.html">GALERÍA</a>
+    </div>
+    </div>
+    <!--FIN HEADER MÓVIL (DROPDOWN)-->
+    <!--HEADER ESCRITORIO-->
+    <div class="header">
+    <a href="index2.0.html"><img src="Images/LOGO-PDC-2.png" class="logo"></a>
+    <div class="botones-header">
+      <a href="pdc.html">PIZARRA DE CANALLAS</a>
+      <a href="contacto.html">CONTACTO</a>
+      <a href="galeria.html">GALERÍA</a>
+    </div>
+    </div>
+<!--FIN HEADER ESCRITORIO -->
+<!--FORMULARIO DE CONTACTO-->
+<div class="formulario-contacto">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdgr9UGn9mwfEaeTxpowK0Py6gOyoiuDgqZlJ1OppC3Dn7pBA/viewform?embedded=true" width="90%" height="500px" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+</div>
+<!--FIN FORMULARIO DE CONTACTO-->
+<!--ARTÍCULOS-->
+<h2 style="margin-left: 20px;">Sigue leyendo</h2>
+
+<div class="corrida-cajas">
+  <div class="caja">
+    <img src="Images/pegaleinicio.jpg">
+    <p><b>[VIDEO] Pégale a tu papá</b><br><br>Entrevista con el psicoanalista Carlos Almonte, sobre las figuras paternas y maternas en Santiago post-pandémico.</p>
+  </div>
+
+  <div class="caja">
+  <a href="anarquismo-expropiador.html"><img src="Images/cuicosinicio.jpg"></a>
+    <p><a href="anarquismo-expropiador.html"><b>A robar a los cuicxs, Facultad de Comunicación y Letras UDP</b></a><br><br>El anarquismo expropiador e ilegalista en las universidades santiaguinas.</p>
+  </div>
+
+  <div class="caja">
+    <a href="extratextuales.html"><img src="Images/escritoinicio.jpg"></a>
+    <p><a href="extratextuales.html"><b>Relaciones extratextuales</b></a><br><br>Un pequeño escrito en el baño de la F. de Artes, una experiencia universal.</p>
+  </div>
+
+  <div class="caja">
+<a href="arte.html"><img src="Images/grafiti1.jpg"></a>
+<p><a href="arte.html"><b>"La pintura sigue siendo la lengua materna del arte"</b></a><br><br>Gonzalo Díaz en la Facultad de Artes de la U. de Chile, el arte contemporáneo y los formatos.</p>
+  </div>
+</div>
+
+<div class="boton-articulos">
+  <a href="galeria.html">Ver más...</a>
+</div>
+<!--ARTÍCULOS-->
+<!--CAJA ANIMADA MOVIL-->
+<div class="caja-animada-fondo">
+<div class="caja-animada">
+  <h2><a href="pegale-a-tu-papa.html" style="color: white; text-decoration: none;">[VIDEO] Pégale a tu papá, fachada USaCh - [VIDEO] Pégale a tu papá, fachada USaCh</a></h2>
+  <h2><a href="anarquismo-expropiador.html" style="color: white; text-decoration: none;">A robar a los cuicos, Facultad de Comunicación y Letras, UDP - Anarquismo expropiador</a></h2>
+  <h2><a href="extratextuales.html" style="color: white; text-decoration: none;">Relaciones extratextuales - Un pequeño escrito en el baño de Artes Visuales, UCh</a></h2>
+  <h2><a href="arte.html" style="color: white; text-decoration: none;">Gonzalo Díaz: "La pintura sigue siendo la lengua materna del arte" - La pintura está muerta</a></h2>
+  <h2><a href="ñuñoinos.html" style="color: white; text-decoration: none;">¿Quiénes son los ñuñoínos? - Conversación con Eduardo Sabrovsky - UDP = ÑUÑOA</a></h2>
+</div>
+</div>
+<!--FIN CAJA ANIMADA MOVIL-->
+
+    <!--FOOTER-->
+    <div class="footer" style="margin-top: 0;">
+    <div class="footer-container">
+      <div class="footer-section-wrapper">
+
+        <div class="footer-section">
+          <div class="footer-logo">
+            <img src="Images/LOGO-PDC-2.png" alt="">
+        </div>
+        </div>
+
+        <div class="footer-section">
+          <nav class="footer-list">
+            <li><a href="contacto.html">CONTACTO</a></li>
+            <li><a href="pdc.html">PIZARRA DE CANALLAS</a></li>
+            <li><a href="galeria.html">GALERÍA</a></li>
           </nav>
         </div>
-      </header>
-      <!-- Breadcrumbs-->
-      <section class="breadcrumbs-custom bg-image" style="background-image: url(images/Banner-contacto.png); background-color: #FFFFFF;">
-        <br><br><br><br><br>
-      <!--  <div class="container">
-          <h2 class="breadcrumbs-custom__title">contacto</h2>
-          <ul class="breadcrumbs-custom__path">
-            <li><a href="index.html">Inicio</a></li>
-            <li class="active">contacto</li>
-          </ul>
-        </div>-->
-      </section>
-      <!-- Get in Touch-->
-      <section class="section section-lg bg-default">
-        <div class="container">
-          <div class="layout-bordered">
-            <div class="layout-bordered__main text-center">
-              <div class="layout-bordered__main-inner">
-                <h3>Escríbenos</h3>
-                <p style="color: #212121;">Si viste un rayado y te gustaría saber a qué se refiere, o tú mismo conoces el trasfondo, mándanos una foto. También estamos disponibles para responder a preguntas acerca del proyecto y abiertos a colaboraciones. <br>¡Gracias! </p>
-                <!-- RD Mailform-->
-                <form class="rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
-                  <div class="row align-items-md-end row-20">
-                    <div class="col-md-6">
-                      <div class="form-wrap">
-                        <input class="form-input" id="contact-first-name" type="text" name="first-name" data-constraints="@Required">
-                        <label class="form-label" for="contact-first-name">Nombre</label>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="form-wrap">
-                        <input class="form-input" id="contact-phone" type="text" name="phone" data-constraints="@Numeric @Required">
-                        <label class="form-label" for="contact-phone">Celular</label>
-                      </div>
-                    </div>
-                    <div class="col-sm-12">
-                      <div class="form-wrap">
-                        <label class="form-label" for="contact-message">Tu mensaje</label>
-                        <textarea class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="form-wrap">
-                        <input class="form-input" id="contact-email" type="email" name="email" data-constraints="@Email @Required">
-                        <label class="form-label" for="contact-email">Correo</label>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <button class="button button-block button-primary" type="submit">Enviar</button>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
-            <div class="layout-bordered__aside">
-              <div class="layout-bordered__aside-item">
-                <p class="heading-8">Redes</p>
-                <ul class="list-inline-xs">
-                  <!--<li><a class="icon icon-sm icon-default fa fa-facebook" href="#"></a></li>-->
-                  <li><a class="icon icon-sm icon-default fa fa-twitter" href="#"></a></li>
-                  <li><a class="icon icon-sm icon-default fa fa-instagram" href="#"></a></li>
-                  <li><a class="icon icon-sm icon-default fa fa-youtube" href="#"></a></li>
-                </ul>
-              </div>
-              <div class="layout-bordered__aside-item">
-                <p class="heading-8">Teléfono</p>
-                <div class="unit flex-row unit-spacing-xxs">
-                  <div class="unit__left"><span class="icon icon-sm icon-primary material-icons-local_phone"></span></div>
-                  <div class="unit__body"><a href="tel:#">+56 9 4987 6696</a></div>
-                </div>
-              </div>
-              <div class="layout-bordered__aside-item">
-                <p class="heading-8">Correo</p>
-                <div class="unit flex-row unit-spacing-xxs">
-                  <div class="unit__left"><span class="icon icon-sm icon-primary mdi mdi-email-outline"></span></div>
-                  <div class="unit__body"><a href="mailto:#">contacto@pizarradecanallas.cl</a></div>
-                </div>
-              </div>
-              <div class="layout-bordered__aside-item">
-                <p class="heading-8">Dirección</p>
-                <div class="unit flex-row unit-spacing-xxs">
-                  <div class="unit__left"><span class="icon icon-sm icon-primary material-icons-location_on"></span></div>
-                  <div class="unit__body"><a href="#">Facultad de la Comunicación e Imagen, Universidad de Chile. Ignacio Carrera Pinto 1045, Ñuñoa, Región Metropolitana</a></div>
-                </div>
-              </div>
-            </div>
+
+        <div class="footer-section">
+          <div class="footer-license">
+            <p style="text-align: center; color: white; font-family: sans-serif; font-size: .7em; opacity: 75%; margin-bottom: 5px;"><i>Santiago, 2022-2023<br>José Miguel Leiva Gahona.</i></p>
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/></a><br/><p style="color: white; font-family: sans-serif; font-size: .5em; opacity: 75%;">This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a></p>
           </div>
         </div>
-      </section>
-      <!-- RD Google Map-->
-      <section class="section">
-        <div class="google-map-container" data-center="6036 Richmond hwy., Alexandria, VA, 2230" data-zoom="5" data-styles="[{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#e9e9e9&quot;},{&quot;lightness&quot;:17}]},{&quot;featureType&quot;:&quot;landscape&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#f5f5f5&quot;},{&quot;lightness&quot;:20}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#ffffff&quot;},{&quot;lightness&quot;:17}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;geometry.stroke&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#ffffff&quot;},{&quot;lightness&quot;:29},{&quot;weight&quot;:0.2}]},{&quot;featureType&quot;:&quot;road.arterial&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#ffffff&quot;},{&quot;lightness&quot;:18}]},{&quot;featureType&quot;:&quot;road.local&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#ffffff&quot;},{&quot;lightness&quot;:16}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#f5f5f5&quot;},{&quot;lightness&quot;:21}]},{&quot;featureType&quot;:&quot;poi.park&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#dedede&quot;},{&quot;lightness&quot;:21}]},{&quot;elementType&quot;:&quot;labels.text.stroke&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;on&quot;},{&quot;color&quot;:&quot;#ffffff&quot;},{&quot;lightness&quot;:16}]},{&quot;elementType&quot;:&quot;labels.text.fill&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:36},{&quot;color&quot;:&quot;#333333&quot;},{&quot;lightness&quot;:40}]},{&quot;elementType&quot;:&quot;labels.icon&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#f2f2f2&quot;},{&quot;lightness&quot;:19}]},{&quot;featureType&quot;:&quot;administrative&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#fefefe&quot;},{&quot;lightness&quot;:20}]},{&quot;featureType&quot;:&quot;administrative&quot;,&quot;elementType&quot;:&quot;geometry.stroke&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#fefefe&quot;},{&quot;lightness&quot;:17},{&quot;weight&quot;:1.2}]}]">
-          <div class="google-map"></div>
-          <ul class="google-map-markers">
-            <li data-location="6036 Richmond hwy., Alexandria, VA, 2230" data-description="6036 Richmond hwy., Alexandria, VA, 2230" data-icon="images/gmap_marker.png" data-icon-active="images/gmap_marker_active.png"></li>
-          </ul>
-        </div>
-      </section>
-      <!-- Page Footer-->
-      <footer class="footer-classic bg-gray-8">
-        <div class="container">
-          <div class="footer-classic__main">
-            <ul class="list-nav-bordered">
-              <li><a href="index.html">Inicio</a></li>
-              <li><a href="about-us.html">Pizarra de canallas</a>
-              </li>
-              <!--  <li><a href="#">Production</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Media</a></li>-->
-              <li><a href="contacto.html">contacto</a>
-              </li>
-            </ul>
-          </div>
-          <div class="divider"></div>
-          <div class="footer-classic__aside">
-            <div class="row row-20">
-              <div class="col-md-6 text-md-left">
-                <!-- Rights-->
-                <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
-              </div>
-              <div class="col-md-6 text-md-right">
-                <ul class="list-inline-xxs">
-                  <li>
-                    <p>Síguenos</p>
-                  </li>
-                  <li><a class="icon icon-xs icon-style-modern fa fa-facebook" href="#"></a></li>
-                  <li><a class="icon icon-xs icon-style-modern fa fa-twitter" href="#"></a></li>
-                  <li><a class="icon icon-xs icon-style-modern fa fa-instagram" href="#"></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+
     </div>
-    <!-- Global Mailform Output-->
-    <div class="snackbars" id="form-output-global"></div>
-    <!-- Javascript-->
-    <script src="js/core.min.js"></script>
-    <script src="js/script.js"></script>
+    </div>
+    </div>
+    <!--FIN FOOTER -->
   </body>
-</html>
