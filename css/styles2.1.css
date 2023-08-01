@@ -1389,3 +1389,28 @@ margin: 0;
   object-fit: cover;
   margin-bottom: 10px;
 }
+
+table{
+  color: #ffff;
+  width: 100%;
+  font-family: Anaheim;
+  font-size: 1.7em;
+  background-color: #232323;
+}
+
+table th{
+  text-align: left;
+  padding: 5px;
+  padding-top: 5px;
+  line-height: .2em;
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+table td{
+  text-align: right;
+  padding: 5px;
+  padding-top: 5px;
+  line-height: 1em;
+  border-bottom: 1px solid gray;
+}
